@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int increment1(int **p){ //call by value (chnage will not replect)
+int increment1(int **p){ //call by value (chnage will not reflect)
     p = p+1;
 }
 int increment2(int **p){ //it will change the pointer p adress definetly
